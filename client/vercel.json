@@ -38,8 +38,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "env": {
-    "REACT_APP_API_URL": "@react-app-api-url"
-  }
+  ]
 }
