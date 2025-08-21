@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
     ? [
-        process.env.FRONTEND_URL || 'https://your-app.vercel.app',
+        process.env.FRONTEND_URL || 'https://ecommerce-frontend-jjpzgyw1e-yash-kumar-jhas-projects.vercel.app/',
         'https://your-app.vercel.app' // Replace with your actual Vercel URL
       ]
     : [
