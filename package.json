@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack ecommerce application",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "server": "npm run dev",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install-all": "npm run install-server && npm run install-client"
+  },
+  "keywords": ["ecommerce", "react", "node", "express", "mongodb"],
+  "author": "meyashjha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meyashjha/ecommerce-fullstack.git"
+  }
+}
