@@ -1,0 +1,198 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.test
+
+# Build outputs
+/client/build/
+/client/dist/
+/server/dist/
+/server/build/
+build/
+dist/
+
+# React specific
+/client/build/
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# ESLint cache
+.eslintcache
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# next.js build output
+.next/
+out/
+
+# Nuxt.js build output
+.nuxt/
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Storybook build outputs
+.out/
+.storybook-out/
+
+# Temporary folders
+tmp/
+temp/
+
+# IDE
+*.iml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# MongoDB
+data/
+db/
+
+# Package manager lock files (choose one strategy)
+# Uncomment the next line if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+
+# Local development and testing
+*.local
+.cache
+
+# Webpack
+.webpack/
+
+# Parcel
+.parcel-cache
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+
+# Local Netlify folder
+.netlify
+
+# Vercel
+.vercel
+
+# Docker
+Dockerfile.local
+docker-compose.override.yml
+
+# Mac specific
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+DEPLOYMENT_GUIDE.md
+explanation.md
+deployment-guide.md
+README-DEPLOYMENT.md
